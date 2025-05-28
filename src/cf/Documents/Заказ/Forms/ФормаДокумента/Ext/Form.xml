@@ -239,6 +239,12 @@
 							<ContextMenu name="СостояниеЗаказаКонтекстноеМеню" id="91"/>
 							<ExtendedTooltip name="СостояниеЗаказаExtendedTooltip" id="92"/>
 						</RadioButtonField>
+						<CheckBoxField name="Онлайн" id="120">
+							<DataPath>Объект.Онлайн</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ОнлайнКонтекстноеМеню" id="121"/>
+							<ExtendedTooltip name="ОнлайнРасширеннаяПодсказка" id="122"/>
+						</CheckBoxField>
 					</ChildItems>
 				</UsualGroup>
 			</ChildItems>

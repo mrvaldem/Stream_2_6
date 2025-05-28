@@ -321,7 +321,7 @@
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<ObjectAutonumerationMode>NotAutoFree</ObjectAutonumerationMode>
 			<ModalityUseMode>DontUse</ModalityUseMode>
-			<SynchronousPlatformExtensionAndAddInCallUseMode>DontUse</SynchronousPlatformExtensionAndAddInCallUseMode>
+			<SynchronousPlatformExtensionAndAddInCallUseMode>Use</SynchronousPlatformExtensionAndAddInCallUseMode>
 			<InterfaceCompatibilityMode>Taxi</InterfaceCompatibilityMode>
 			<DatabaseTablespacesUseMode>DontUse</DatabaseTablespacesUseMode>
 			<CompatibilityMode>Version8_3_23</CompatibilityMode>
@@ -395,6 +395,8 @@
 			<CommonModule>УведомленияКлиент</CommonModule>
 			<CommonModule>УведомленияСервер</CommonModule>
 			<CommonModule>Коннектор</CommonModule>
+			<CommonModule>ОформлениеПродажи</CommonModule>
+			<CommonModule>СервисТовары</CommonModule>
 			<ExchangePlan>Мобильные</ExchangePlan>
 			<XDTOPackage>ОбменСМобильнымУстройством</XDTOPackage>
 			<WebService>MAExchange</WebService>
@@ -407,6 +409,7 @@
 			<ScheduledJob>ПерестроениеАгрегатовПродаж</ScheduledJob>
 			<ScheduledJob>НеотработанныеЗаказы</ScheduledJob>
 			<ScheduledJob>СлияниеИндексаППД</ScheduledJob>
+			<ScheduledJob>ОформлениеОнлайнПродаж</ScheduledJob>
 			<SettingsStorage>ХранилищеВариантовОтчетов</SettingsStorage>
 			<FunctionalOption>УчетПоСкладам</FunctionalOption>
 			<FunctionalOption>РаботаСТорговымОборудованием</FunctionalOption>
