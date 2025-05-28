@@ -18,7 +18,7 @@
     "xunit": {
         "--xddConfig": "./tools/JSON/my_file.json",
         "testsPath": "./tests",
-        "--reportsxunit": "ГенераторОтчетаJUnitXML{out/smoke/junit/junit.xml};ГенераторОтчетаAllureXMLВерсия2{out/smoke/allure/allure.xml}",
+        "--reportsxunit": "ГенераторОтчетаJUnitXML{out/smoke/junit/junit.xml};ГенераторОтчетаAllureXMLВерсия2{out/allure/allure.xml}",
         "--xddExitCodePath": "./build/xddExitCodePath.txt"
     },
     "syntax-check": {
