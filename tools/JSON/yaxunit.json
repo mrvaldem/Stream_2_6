@@ -2,7 +2,7 @@
     "filter": {
         "extensions": ["YAXUNIT"]
     },
-    "reportPath": "./out/allure",
+    "reportPath": "./build/out",
     "reportFormat": "allure",
     "closeAfterTests": true
 }
