@@ -1,0 +1,8 @@
+{
+    "filter": {
+        "extensions": ["YAXUNIT"]
+    },
+    "reportPath": "./out/allure",
+    "reportFormat": "allure",
+    "closeAfterTests": true
+}
